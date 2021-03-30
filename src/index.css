@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#menulink { position: relative; min-height: 40px; width: 240px;}
+#menulink .MuiSvgIcon-root { position: absolute; left: 12px; top: 10px; border: 0px solid #000; margin-left: -3px; }
+#menulink span {  position: absolute; left: 40px; top: 10px; margin-top:2px;}
+
+#userRdetails {   padding: 20px 0px;  }
+#userRuserimg { border-radius: 50%; border: 1px solid #ddd; width: 60%; height: 65px; width: 65px; margin-top: 25px; }
+#userRuser { font-family: 'Futura PT Book'; font-size: 18px;  }
+#userRlink { font-family: 'Futura PT Book'; color: #43aac5; font-size: 14px; }
+#userRtext { font-family: 'Futura PT Book'; font-size: 20px;  }
+
+#PgHeading { text-align: left; padding: 20px 0px; font-size: 40px; line-height: 40px;   }
+#PgHeadingC { text-align: center; padding: 20px 0px; font-size: 40px; line-height: 40px;   }
+#PgHeadingW { text-align: center; padding: 20px 0px; font-size: 40px; line-height: 40px; color: #fff;   }
+
+#RankRead { font-family: 'Futura PT Book'; color: #43aac5 !important; font-size: 22px; line-height: 26px; padding: 25px 25px;  }
+#RankRead a { color: #43aac5 !important; font-weight: lighter; }
+
+#midBox1 { background: #fff; line-height: 40px; color: #43aac5; border-radius: 10px; min-height: 150px; margin: 0px 15px;   }
+#midBox1:hover { background: #43aac5; color: #fff; border-radius: 10px; min-height: 150px; transition: 0.5s;}
+#midBox1 p { padding-top: 45px; } 
+
+#midBox2 { background: #fff; line-height: 40px; color: #c85ead; border-radius: 10px; min-height: 150px; margin: 0px 15px;  }
+#midBox2:hover { background: #c85ead; color: #fff; border-radius: 10px; min-height: 150px; transition: 0.5s; }
+#midBox2 p { padding-top: 45px; } 
+
+#midBox3 { background: #fff; line-height: 40px; color: #9568c4; border-radius: 10px; min-height: 150px; margin: 0px 15px;  }
+#midBox3:hover { background: #9568c4; color: #fff; border-radius: 10px; min-height: 150px; transition: 0.5s;}
+#midBox3 p { padding-top: 45px; } 
+
+#dashboardText { font-family: 'Futura PT Book'; font-size: 20px;  }
+
+#liveTText { font-family: 'Futura PT Book'; font-size:18px; line-height: 26px; font-weight: lighter;  }
+
+#midBoxStext { font-family: 'Futura PT Book'; font-size: 20px; color: #000;  margin-top: -30px; 
+   padding: 10px 8% 20px 8%; }
+   #tablettext { font-size: 18px; text-align: center; line-height: 25px; color: #222; font-weight: lighter;
+  font-family: Futura PT Book; 
+  }
+   #cdashboardText { font-family: 'Futura PT Book'; font-size: 20px; color: #000;   
+    padding: 0px 8% 20px 8%; text-align: center; }
+
+#minsBoxImg { height: 85px; background: #eee; border: 1px solid #ddd; margin-top: 15px; margin-right: 15px; line-height: 85px; }
+#minsBoxImg img {margin-top:13px}
+#vabox { 
+  justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    position: relative;
+    text-align: center;
+    padding: 20px 20px !important;
+    min-height: 260px; height: 260px; margin-top: 140px;
+ }
+
+#vaicon {   width: 120px; height:120px; margin: 0px auto; text-align: center; }
+#vaicon img { width:100px; margin:10px auto; text-align: center; }
+
+.MuiCardMedia-media {
+  width: 100%;
+  border:none;
+  background: #fff;
+  margin-bottom: 35px;
+}
+#profileimg { width: 160px; height: 160px; border-radius: 50%; 
+  border: 4px solid #fff; border:5px solid #fff ; overflow: hidden; text-align: center; }
+#profileimg img { background: #fff; height: 200px; margin: 0px auto; width: 200px;}
+
+
+
+  @media (min-width: 576px) {
+  #container {
+   max-width: 540px;
+  }
+  }
+  @media (min-width: 768px) {
+    #container {
+     max-width: 720px;
+    }
+    }
+
+    @media (min-width: 992px) {
+      #container {
+       max-width: 960px;
+      }
+      }
+    @media (min-width: 1200px) {
+    #container {
+     max-width: 1140px;
+    }
+    }
+    @media screen and (min-width: 1400px) {
+      #container {
+      max-width:1200px
+      }
+      }
+      @media screen and (min-width: 1600px) {
+      #container {
+      max-width:1400px
+      }
+      }
+      @media screen and (min-width: 1920px) {
+      #container {
+      max-width:1600px
+      }
+      }
+
+  #container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: 999;
+  }
+#header { background-color: #000; height: auto; padding: 0px; margin: 0px auto;  }
+#clear { clear: both; }
+
+#header .MuiSvgIcon-root { font-size: 1.3rem !important; }
+
+#welcome_section { position: relative; width: 100%; background: #fff; overflow: visible;    }
+
+#welcome_section #img_one 
+  { 
+    position: absolute; left:0px; z-index:0; top: 0px;
+  }
+ #welcome_section #img_two 
+ {
+    position: absolute; z-index:0; bottom: 0px; right:0px;
+ }
+
+#welcome_section #img_one img,  #welcome_section #img_two img {
+  opacity: 0.5;
+  width: 225px;
+}
+
+@font-face {
+  font-family: 'BebasNeue Thin';
+  src: local('BebasNeue'), url(./constants/BebasNeue/TTF/BebasNeue-Thin.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'BebasNeue Light';
+  src: local('BebasNeue'), url(./constants/BebasNeue/TTF/BebasNeue-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'BebasNeue Regular';
+  src: local('BebasNeue'), url(./constants/BebasNeue/TTF/BebasNeue-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'BebasNeue Book';
+  src: local('BebasNeue'), url(./constants/BebasNeue/TTF/BebasNeue-Book.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'BebasNeue Bold';
+  src: local('BebasNeue'), url(./constants/BebasNeue/TTF/BebasNeue-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Futura LT Light';
+  src: local('BebasNeue'), url(./constants/Futra/Futura-LT-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Futura PT Book';
+  src: local('BebasNeue'), url(./constants/Futra/futura-pt-book.otf) format('truetype');
+}
+
+
+
